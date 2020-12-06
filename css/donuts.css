@@ -1,0 +1,78 @@
+.organizar_donuts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: Impact;
+    color: rgb(124, 50, 50);
+}
+
+.imagem_donuts{
+    margin-left: 30px;
+    align-items: center;
+    width: 40%;
+    flex-direction: column;
+    display: flex;
+}
+
+.imagem_donuts img{
+    width: 350px;
+    margin-top: 0;
+}
+
+
+
+.formulario_donuts{
+    width: 60%;
+    padding: 20px;
+    margin-top: 50px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.formulario_donuts form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 1em rgb(255, 197, 197);
+}
+.formulario_donuts form .titulo_donuts_form{
+    text-align: center;
+}
+
+.formulario_donuts button{
+    color: rgba(94, 33, 33, 0.911);
+    background-color: rgb(255, 204, 213);
+}
+
+.formulario_donuts button:hover{
+    transition: 0.2s;
+    box-shadow: 0 0 2em rgb(255, 204, 213);
+    transform: scale(1.05);
+    color: rgba(94, 33, 33, 0.911);
+    background-color: rgb(255, 204, 213);
+}
+
+.formulario_donuts form .linhas{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.formulario_donuts form .linhas .linha1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.formulario_donuts form .linhas .linha2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
